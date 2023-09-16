@@ -1,0 +1,30 @@
+.nav-link{
+color: rgb(255, 255, 255) !important;
+    font-weight: 400;
+}
+.d-block{
+    height: 450px;
+}
+@media only screen and (max-width: 300px) {
+    .d-block{
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 301px) and (max-width: 450px) {
+    .d-block{
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 700px) {
+    .d-block{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .image img{
+        width: 100%;
+    }
+}
